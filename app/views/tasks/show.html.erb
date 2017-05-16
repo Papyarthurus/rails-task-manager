@@ -1,0 +1,8 @@
+<h1>Task#show</h1>
+
+<p>Address : <%= @task.content %></p>
+<p>Status : <%= @task.done %></p>
+
+<p>Created at : <%= time_ago_in_words(@task.created_at) %></p>
+
+
