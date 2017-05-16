@@ -1,0 +1,13 @@
+<%= form_for(@task, class: 'form-inline') do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :content %>
+  <%= f.text_field :content %>
+
+  <%= f.label :done %>
+  <%= f.text_field :done %>
+
+  <%= f.submit %>
+<% end %>
+
